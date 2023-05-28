@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "admin@gmail.com",
+      "type": "admin",
+      "password": "12345678"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane@yahoo.com",
+      "type": "customer",
+      "password": "12345678"
+    },
+    {
+      "id": 3,
+      "name": "Bill Gates",
+      "email": "gates@gmail.com",
+      "type": "customer",
+      "password": "12345678"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 14",
+      "price": 1199,
+      "desc": "Apple's newest phone",
+      "img": "https://images.unsplash.com/photo-1678685888221-cda773a3dcdb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80"
+    },
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S23",
+      "price": 1299,
+      "desc": "Samsung's latest phone",
+      "img": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"
+    },
+    {
+      "id": 3,
+      "name": "iPad Pro 11in",
+      "price": 799,
+      "desc": "Apple's newest ipad",
+      "img": "https://images.unsplash.com/photo-1585770536735-27993a080586?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80"
+    },
+    {
+      "name": "Keychron K8",
+      "price": 8000,
+      "desc": "The best enthusiast budget mechanical keyboard",
+      "img": "https://images.unsplash.com/photo-1654484521164-92bf7605cac0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1174&q=80",
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "bill": 1299,
+      "date": "2023-05-23T18:25:43.511Z",
+      "customer": {
+        "id": 2,
+        "name": "Jane Doe",
+        "email": "jane@yahoo.com",
+        "type": "customer",
+        "password": "12345678"
+      },
+      "products": [
+        {
+          "id": 1,
+          "name": "Samsung Galaxy S23",
+          "price": 1299,
+          "desc": "Samsung's latest phone",
+          "img": "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1172&q=80"
+        }
+      ]
+    }
+  ]
+}
